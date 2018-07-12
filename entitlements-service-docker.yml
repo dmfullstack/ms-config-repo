@@ -1,0 +1,11 @@
+entitlement:
+  pdp:
+    service:
+        conf: classpath:cxf-pdp-service.xml
+    url: http://localhost:8080/services/pdp
+  request-json-path: /src/main/resources/addUserAccess.json
+
+
+# LOGGING
+  logging:
+    config: classpath:logback.xml
