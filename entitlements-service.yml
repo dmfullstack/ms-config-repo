@@ -2,6 +2,7 @@ entitlement:
   pdp:
     service:
         conf: classpath:cxf-pdp-service.xml
+        conf1: dummy
     url: http://localhost:8080/services/pdp
   request-json-path: /src/main/resources/addUserAccess.json
 
